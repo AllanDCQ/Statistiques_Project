@@ -363,7 +363,7 @@ Les 2 `P-value < 2e-16` indique que les coefficients a et b sont non nuls.
         abline(lmyx,col="orange", lwd=3, lty=2)
 ```
 
-![](/Statistiques_project/img/Rplot-1.png)
+![](/img/Rplot-1.png)
 
 #### Exercice 4
 Intervalle de prédiction au niveau de `95%` à la sortie du tunnel de la croix rousse : `[117-126]`. 
@@ -460,7 +460,7 @@ Les 2 `P-value < 1,22e-13` indique que les coefficients a et b sont non nuls.
     print(Graphique)
 ```
 
-![](/Statistiques_project/img/Rplot-2.png)
+![](/img/Rplot-2.png)
 
 #### Exercice 7
 
@@ -537,7 +537,7 @@ On déduit que V suit une loi uniforme sur `[0,2]`, la densité est a `0,5` (sur
     lines(density(U),col='blue',lty = 1, lwd = 5) 
 ```
 
-![](/Statistiques_project/img/Rplot-3.png)
+![](/img/Rplot-3.png)
 
 #### Exercice 2
 
@@ -556,7 +556,7 @@ L’ensemble d’après le graphique est de `[0,1]` pour V(y) et `[-1,1]` pour U
     plot(U,V,pch='.', main = "Nuage de points de l'?chantillon", col="red")
 ```
 
-![](/Statistiques_project/img/Rplot-4.png)
+![](/img/Rplot-4.png)
 
 #### Exercice 4 :
 
@@ -567,7 +567,7 @@ L’ensemble d’après le graphique est de `[0,1]` pour V(y) et `[-1,1]` pour U
 
 L’intervalle pour U0 et V0 est de `[-1,1]`
 
-![](/Statistiques_project/img/Rplot-5.png)
+![](/img/Rplot-5.png)
 
 #### Exercice 4 :
 
@@ -582,4 +582,4 @@ Le programme calcule la valeur absolue de U puis additionne a V (qui a des valeu
     lines(densite, col='blue',lty = 1, lwd = 5) 
 ```
 
-![](/Statistiques_project/img/Rplot-6.png)
+![](/img/Rplot-6.png)
